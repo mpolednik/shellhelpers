@@ -1,0 +1,1 @@
+~/Projects/src/github.com/coreos/etcd/bin/etcd --ca-file ~/Kube/certs/ca/ca.pem --cert-file ~/Kube/certs/etcd/etcd.pem --key-file ~/Kube/certs/etcd/privkey.pem --client-cert-auth --advertise-client-urls https://127.0.0.1:4001 --listen-client-urls https://127.0.0.1:4001
