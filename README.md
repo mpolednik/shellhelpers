@@ -5,6 +5,7 @@ Collection of useful (personal) shell scripts.
 ## Development Environment Related
 
 * sync.sh - rsyncs ~/Projects/src over to $1:~/Projects/src, aliased from dotfiles/.zshrc
+* initzsh.sh - makes sure that zsh on a machine is to my liking :)
 
 ## Kubernetes Related
 
