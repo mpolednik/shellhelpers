@@ -6,4 +6,4 @@ fi
 
 echo "Syncing project sources to development machine"
 
-rsync -r --exclude=".vagrant" --delete ~/Projects/src $1:~/Projects/src
+rsync -r --exclude=".vagrant" --delete ~/Projects/src $1:~/Projects/
