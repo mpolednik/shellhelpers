@@ -1,6 +1,6 @@
 #!/bin/bash
 
-~/Projects/src/github.com/mpolednik/byoc/byoc kubevirt ~/Projects/src/kubevirt.io ~/kubevirt-vagrant
+~/Projects/src/github.com/mpolednik/byoc/byoc kubevirt ~/Projects/src/kubevirt.io ~/kubevirt-vagrant/src
 pushd ~/kubevirt-vagrant/kubevirt.io/kubevirt
 VAGRANT_NUM_NODES=2 vagrant up
 sed "s/make all DOCKER_TAG=devel//g" cluster/vagrant/sync_build.sh | bash -
