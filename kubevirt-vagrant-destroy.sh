@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pushd ~/kubevirt-vagrant/kubevirt.io/kubevirt
+pushd ~/kubevirt-vagrant/src/kubevirt.io/kubevirt
 vagrant destroy
 popd
