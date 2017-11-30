@@ -1,1 +1,1 @@
-~/Kube/kubernetes/server/bin/kubectl --kubeconfig ~/.kube/config --certificate-authority ~/Kube/certs/ca/ca.pem --client-certificate ~/Kube/certs/kubectl/kubectl.pem --client-key ~/Kube/certs/kubectl/privkey.pem $@
+~/Kube/kubernetes/server/bin/kubectl --kubeconfig ~/.kube/config --certificate-authority ~/Kube/certs/ca/ca.pem --client-certificate ~/Kube/certs/kubectl/kubectl.pem --client-key ~/Kube/certs/kubectl/kubectl.key $@
