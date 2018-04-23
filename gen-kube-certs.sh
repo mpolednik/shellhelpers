@@ -14,7 +14,7 @@ gen () {
 }
 
 mkdir -p ${CA_PATH}
-openssl req -x509 -nodes -newkey rsa:2048 -keyout ${CA_PATH}/key.pem -out ${CA_PATH}/ca.pem -subj "/C=US/CN=localhost"
+openssl req -x509 -new -nodes -newkey rsa:2048 -keyout ${CA_PATH}/key.pem -out ${CA_PATH}/ca.pem -subj "/C=US/CN=localdomain"
 
 mkdir -p ${ETCD_PATH}
 gen ${ETCD_PATH}/etcd.key ${ETCD_PATH}/etcd.csr ${ETCD_PATH}/etcd.pem
